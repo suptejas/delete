@@ -1,0 +1,20 @@
+[package]
+name = "delete"
+version = "0.1.0"
+authors = ["XtremeDevX <xtremedevx@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0"
+description = "Fast, easy deletion of files and folders with async and cross-platform support."
+repository = "https://github.com/XtremeDevX/delete"
+keywords = ["delete", "fs", "io", "cross-platform", "recursive", "async"]
+categories = ["filesystem", "asynchronous", "concurrency"]
+
+[dependencies]
+jwalk = "0.6.0"
+tokio = { version = "1.7.1", features = ["fs"] }
+futures = "0.3.15"
+
+[profile.release]
+opt-level = 'z'     # Optimize for size.
+lto = true          # Enable Link Time Optimization
+codegen-units = 1   # Reduce number of codegen units to increase optimizations.
