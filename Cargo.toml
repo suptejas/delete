@@ -9,6 +9,7 @@ repository = "https://github.com/XtremeDevX/delete"
 keywords = ["delete", "fs", "io", "cross-platform", "async"]
 categories = ["filesystem", "asynchronous", "concurrency"]
 readme = "README.md"
+documentation = "https://docs.rs/delete/1.0.0/delete/"
 
 [dependencies]
 jwalk = "0.6.0"
