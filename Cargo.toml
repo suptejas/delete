@@ -6,7 +6,7 @@ edition = "2018"
 license = "Apache-2.0"
 description = "Fast, easy deletion of files and folders with async and cross-platform support."
 repository = "https://github.com/XtremeDevX/delete"
-keywords = ["delete", "fs", "io", "cross-platform", "recursive", "async"]
+keywords = ["delete", "fs", "io", "cross-platform", "async"]
 categories = ["filesystem", "asynchronous", "concurrency"]
 
 [dependencies]
