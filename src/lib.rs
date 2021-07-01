@@ -103,7 +103,7 @@ pub async fn rapid_remove_dir_all(
 
     while workers.next().await.is_some() {}
 
-    std::fs::remove_dir_all(path)?;
+    let _ = std::fs::remove_dir_all(path);
 
     Ok(())
 }
