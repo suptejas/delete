@@ -8,6 +8,7 @@ description = "Fast, easy deletion of files and folders with async and cross-pla
 repository = "https://github.com/XtremeDevX/delete"
 keywords = ["delete", "fs", "io", "cross-platform", "async"]
 categories = ["filesystem", "asynchronous", "concurrency"]
+readme = "README.md"
 
 [dependencies]
 jwalk = "0.6.0"
