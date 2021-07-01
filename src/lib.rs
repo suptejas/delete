@@ -63,7 +63,7 @@
 //! #[tokio::main]
 //! async fn main() {
 //!   // 2-3x faster than std::fs::remove_dir_all
-//!   // removes all files and folders in subfolders recursively using tokio workers
+//!   // removes all files and folders in subfolders parallely using tokio workers
 //!   rapid_delete_dir_all("node_modules", None, None).await;
 //! }
 //! ```
