@@ -1,5 +1,5 @@
 //! Fast, easy deletion of files and folders with async and cross-platform support.
-//! ## Overview
+//! ## Overview 
 //!
 //! This crate allows for fast and easy deletion of files and folders. It has `async` and cross-platform support.
 //!
